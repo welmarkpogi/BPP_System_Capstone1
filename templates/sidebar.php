@@ -21,7 +21,7 @@ function appendActiveClass(array $pages)
 	return in_array($GLOBALS["currentPage"], $pages) ? "active" : null;
 }
 ?>
-<div class="sidebar sidebar-style-2">
+<div class="sidebar sidebar-style-2" style="background-color: lightgray;">
   <div class="sidebar-wrapper scrollbar scrollbar-inner">
     <div class="sidebar-content">
       <div class="user">
@@ -62,7 +62,7 @@ function appendActiveClass(array $pages)
           </div>
         </div>
       </div>
-      <ul class="nav nav-primary">
+      <ul class="nav nav-info">
         <li class="
             nav-item
             <?= appendActiveClass(["dashboard", "resident_info", "purok_info"]) ?>

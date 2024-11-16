@@ -508,7 +508,7 @@ $admin_dashboard_cards = [
 </div>
 <?php endif; ?>
 
-            <div class="row">
+            <div class="row" hidden>
               <div class="col-md-12">
                 <div class="card">
                   <div class="card-header">
