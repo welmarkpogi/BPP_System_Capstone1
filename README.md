@@ -1,7 +1,6 @@
-# db capstone1
+# BPPS_capstone1
 Barangay Poblacion Profiling Systemusing core PHP
 
-admin
+administrator
 user
-staff
 staff
